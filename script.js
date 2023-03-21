@@ -27,6 +27,7 @@ function comenzarJuego(){
     cantidadAcertadas = 0;
     //activamos las pantallas necesarias
     document.getElementById("pantalla-inicial").style.display = "none"
+    document.getElementById("titulo").style.display = "none"
     document.getElementById("pantalla-juego").style.display = "block"
     cargarBandera();
 }
